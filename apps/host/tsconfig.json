@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../remote/login"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

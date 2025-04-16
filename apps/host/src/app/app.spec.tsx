@@ -20,7 +20,7 @@ describe('App', () => {
       </BrowserRouter>
     );
     expect(
-      getAllByText(new RegExp('Welcome sas-react-store', 'gi')).length > 0
+      getAllByText(new RegExp('Welcome host', 'gi')).length > 0
     ).toBeTruthy();
   });
 });
